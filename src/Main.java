@@ -11,8 +11,17 @@ public class Main {
                 int n1 = Integer.parseInt(primerNumero);
                 int n2 = Integer.parseInt(segundoNumero);
                 esValido = true;
-                int resultado = n1 + n2;
-                JOptionPane.showMessageDialog(null, "La suma es: " + resultado, "Resultado", JOptionPane.PLAIN_MESSAGE);
+                int suma = n1 + n2;
+                int resta = n1 + n2;
+                int multi = n1 + n2;
+                int div = n1 + n2;
+
+
+                JOptionPane.showMessageDialog(null, "La suma es: " + suma, "Resultado", JOptionPane.PLAIN_MESSAGE);
+                JOptionPane.showMessageDialog(null, "La resta es: " + resta, "Resultado", JOptionPane.PLAIN_MESSAGE);
+                JOptionPane.showMessageDialog(null, "La multiplicacion es: " + multi, "Resultado", JOptionPane.PLAIN_MESSAGE);
+                JOptionPane.showMessageDialog(null, "La division es: " + div, "Resultado", JOptionPane.PLAIN_MESSAGE);
+
             }catch (NumberFormatException e) {
                 JOptionPane.showMessageDialog(null, "Solo numeros enteros", "Error", JOptionPane.ERROR_MESSAGE);
             }
