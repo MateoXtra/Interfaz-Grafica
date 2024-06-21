@@ -1,12 +1,12 @@
-import javax.swing.JOptionPane;
+import javax.swing.*;
+
 public class Main {
     public static void main(String[] args) {
-        boolean esValido = false;
+        /*boolean esValido = false;
         while (!esValido) {
             JOptionPane.showMessageDialog(null, "Ingrese solo numeros enteros ", "Advertencia", JOptionPane.WARNING_MESSAGE);
             String primerNumero = JOptionPane.showInputDialog("Digite el primer numero: ");
             String segundoNumero = JOptionPane.showInputDialog("Digite el segundo  numero: ");
-
             try {
                 int n1 = Integer.parseInt(primerNumero);
                 int n2 = Integer.parseInt(segundoNumero);
@@ -27,6 +27,12 @@ public class Main {
             }
 
 
-        }
+        }*/
+        JFrame frame = new JFrame("Mi aplicación");
+        frame.setContentPane(new Forma1().mainPanel);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setSize(800, 600);
+        frame.pack();
+        frame.setVisible(true);
     }
 }
