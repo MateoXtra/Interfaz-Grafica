@@ -28,11 +28,18 @@ public class Main {
 
 
         }*/
-        JFrame frame = new JFrame("Mi aplicación");
-        frame.setContentPane(new Forma1().MainPanel);
+        /*JFrame frame = new JFrame("Calculadora");
+        frame.setContentPane(new Forma2().MainPanel);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(800, 600);
+        frame.setSize(4500, 1600);
         frame.pack();
-        frame.setVisible(true);
+        frame.setVisible(true);*/
+
+        JFrame frame1 = new JFrame("LOGIN");
+        frame1.setContentPane(new Forma3().login);
+        frame1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame1.setSize(4500, 1600);
+        frame1.pack();
+        frame1.setVisible(true);
     }
 }
