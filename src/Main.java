@@ -29,9 +29,9 @@ public class Main {
 
         }*/
         JFrame frame = new JFrame("Mi aplicación");
-        frame.setContentPane(new Forma1().mainPanel);
+        frame.setContentPane(new Forma1().MainPanel);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(800, 600);
+        frame.setSize(400, 200);
         frame.pack();
         frame.setVisible(true);
     }
