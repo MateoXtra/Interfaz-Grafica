@@ -6,7 +6,7 @@
       <xy x="20" y="20" width="500" height="400"/>
     </constraints>
     <properties>
-      <background color="-14079184"/>
+      <background color="-1972765"/>
     </properties>
     <border type="line">
       <color color="-2235096"/>
@@ -24,14 +24,6 @@
         <properties>
           <background color="-1907242"/>
           <text value="OK"/>
-        </properties>
-      </component>
-      <component id="bb6f5" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="HOLA"/>
         </properties>
       </component>
       <hspacer id="8acca">
@@ -54,6 +46,19 @@
           <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
         </constraints>
       </vspacer>
+      <component id="bb6f5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="3" height="3"/>
+            <preferred-size width="3" height="3"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14079184"/>
+          <foreground color="-14079184"/>
+          <text value="HOLA"/>
+        </properties>
+      </component>
     </children>
   </grid>
 </form>
