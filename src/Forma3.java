@@ -15,13 +15,7 @@ public class Forma3 {
         OKButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                String contrasena = "OLA123";
-                passwordField1.setText(contrasena);
-                if (passwordField1.getText().equals(contrasena)) {
-                    textPane1.setText("BIENVENIDO");
-                }else{
-                    textPane1.setText("Contraseña Incorrecta");
-                }
+
             }
         });
     }
